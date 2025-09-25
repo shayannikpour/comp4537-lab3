@@ -1,8 +1,7 @@
-function getDate() {
-    const currentDate = new Date();
-    
-    return currentDate;
+class Utils {
+    getDate() {
+        return new Date();
+    }
 }
 
-
-module.exports = { getDate };
+module.exports = Utils;
